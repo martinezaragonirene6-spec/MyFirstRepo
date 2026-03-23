@@ -83,5 +83,12 @@ public class Date {
     } catch (ParseException e) {
       return false;
     }
+
+
   }
+
+  public void printHello() {
+    System.out.println("Hello from the Owner!");
+  }
+
 }
